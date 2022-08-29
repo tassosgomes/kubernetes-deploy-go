@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "tasso.dev.br:v99"
+const webContent = "tasso.dev.br:v100"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
